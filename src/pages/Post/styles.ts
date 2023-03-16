@@ -98,3 +98,17 @@ export const AreaDescription = styled.div`
 
    }
 `;
+
+export const ContentBody = styled.div`
+
+p {
+    margin: 10px 0;
+}
+img {
+    width: 100%;
+}
+a{
+    color: ${props => props.theme.blue};
+    font-weight: 700;
+}
+`;

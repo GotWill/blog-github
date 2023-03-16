@@ -44,7 +44,12 @@ export const Container = styled.div`
             p{
                 font-weight: 400;
                 font-size: 16px;
-                color: ${(props) => props.theme["base-text"]}
+                color: ${(props) => props.theme["base-text"]};
+                overflow: hidden; 
+                text-overflow: ellipsis; 
+                display: -webkit-box;
+                -webkit-line-clamp: 4; 
+                -webkit-box-orient: vertical; 
             }
         }
     }
